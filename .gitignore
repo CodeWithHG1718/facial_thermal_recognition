@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+artifacts/
+paper_text/
+*_respiration.csv
+*_heartbeat.csv
+/Joao/
+/anestis/
+/Claudio/
+/Manuel/
+/Jaime/
+*.bag

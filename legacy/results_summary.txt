@@ -1,0 +1,21 @@
+==============================================================================
+  PIPELINE EVALUATION RESULTS -- Steps 7 to 10
+  Thermal Camera Breathing Rate Estimation
+==============================================================================
+
+  Subject       BPM(peak)   BPM(FFT)   Cycles   Regularity      SNR   Duration
+  --------------------------------------------------------------------------
+  Joao               10.7       11.7       20        0.731    60.8%     112.5s
+  anestis             5.7       11.7       10        0.717    60.1%     104.6s
+  Claudio             7.9       11.7       14        0.673    70.1%     106.3s
+  Manuel              6.7       11.7       11        0.204    60.1%      98.8s
+  Jaime               8.7       11.7       14        0.560    63.8%      96.5s
+  --------------------------------------------------------------------------
+  MEAN                7.9
+  STD                 1.7
+
+  NOTE: No ground-truth physiological reference available.
+        BPM estimates are based on peak detection and FFT analysis.
+        Regularity score: 1.0 = perfectly regular breathing cycle.
+        Band SNR: fraction of waveform power in 0.1-0.5 Hz band.
+==============================================================================
